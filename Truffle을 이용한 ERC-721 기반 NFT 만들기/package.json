@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "truffle-plugin-verify": "^0.5.26"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0"
   }
 }
