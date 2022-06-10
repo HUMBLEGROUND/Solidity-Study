@@ -3,6 +3,7 @@ const HDWalletProvider = require("@truffle/hdwallet-provider");
 const mnemonic = "orange apple banana ...";
 
 // module.exports = {
+// 가나슈 네트워크용 셋팅
 //   networks: {
 //     ganache: {
 //       host: "127.0.0.1", // local
@@ -11,6 +12,7 @@ const mnemonic = "orange apple banana ...";
 //     },
 //   },
 module.exports = {
+  // 린케비 테스트넷용 셋팅
   networks: {
     development: {
       host: "127.0.0.1", // Localhost (default: none)
